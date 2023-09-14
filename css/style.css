@@ -693,6 +693,278 @@ footer{
 
 }
 
+@media only screen 
+  and (min-device-width: 427px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .logo > img{
+        margin-top: 1rem;
+        width: 10rem;
+        height: 3rem;
+    }
+
+    header{
+        height: 13rem;
+        min-width: 48rem;
+    }
+    
+    header>nav{
+        display: flex;
+        justify-content: right;
+        grid-column: 2/3;
+    }
+    
+    .nav-principal{
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        justify-content: center;
+        padding-right: 1rem;
+    } 
+    
+    .nav-principal>a{
+        text-decoration: none;
+        color: var(--color-primary-1);
+        font-size: 1.3rem;
+    }
+
+    /* Segundo Cuadro */
+    .contenido_primario{
+        padding-bottom: 40rem;
+    }
+
+    .comentario_lateral h1{
+        font-size: 2.3rem;
+        max-width: 80rem;
+    }
+    
+    .comentario_lateral p{
+        font-size: 1rem;
+        max-width: 31rem;
+    }
+
+    .comentario_lateral{
+        gap: 1.5rem;
+    }
+    
+    .comentario_lateral .input-group{
+        height: 4rem;
+        align-items: center;
+    }
+    
+    picture img{
+        width: 65rem;
+        height: 38rem;
+    }
+
+    /* contenido_secundario */
+    .contenido_secundario{
+        background-size: 380rem 200rem;
+        min-width: 48rem;
+    }
+
+
+    .contenido_grid{
+        padding-top: 10rem;
+        height: 60rem;
+    }
+    
+    .cuadro_lateral_izquierdo{
+        display: grid;
+        grid-template-rows: 6rem 6.5rem 7rem 7rem;
+        padding-left: 2rem;
+    }
+    
+    .cuadro_lateral_izquierdo h1{
+        font-size: 1.5rem;
+        min-height: fit-content;
+        min-width: fit-content;
+    }
+    
+    .cuadro_lateral_izquierdo p{
+        padding-top: 1rem;
+        font-size: 1rem;
+        max-width: 31rem;
+    }
+    
+    .cuadro_lateral_izquierdo a{
+        display: flex;
+        font-size: 1.1rem;
+        width: 14rem;
+        margin-right: 13px;
+    }
+    
+    
+    .cuadro_lateral_izquierdo a img{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .cuadro_comentario{
+        min-width: 22rem;
+        max-height: 90%;
+        grid-template-rows: 25px 50px 45px;
+    }
+    
+
+    .cuadro_comentario p{
+        padding-top: 2rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        max-width: 90%;
+        padding-bottom: 2rem;
+    }
+    
+    .imagen_perfil img{
+        margin-top: 10px;
+    }
+    
+    .texto_perfil{
+        display: grid;
+        grid-template-rows: 22px 10px;
+    }
+
+    .texto_perfil h4{
+        font-size: 0.8rem;
+    }
+
+    .imagen_perfil{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 32px 100px ;
+    }
+
+
+    #circle_image{
+        width:2.5rem;
+        height:2.5rem;
+        border-radius:10rem;
+    }
+
+    /* tercer cuadro */
+    .contenido_terciario{
+        min-width: 48rem;
+    }
+
+
+
+    .cuadros_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 30rem;
+        padding: 2rem;
+        min-width: 48rem;
+    }
+
+    .contenedor_texto{
+        display: grid;
+        grid-template-rows: 50px 1fr;
+        row-gap: 3rem;
+    }
+
+    .contenedor_texto h1{
+        grid-row: 1/2;
+        font-size: 1.5rem;
+        align-items: end;
+    }
+    
+    .contenedor_texto p{
+        max-width: 90%;
+        font-size: 1.1rem;
+    }
+    
+    .input_grid{
+        display: grid;
+        grid-template-rows: 30px 1fr;
+        row-gap: 2rem;
+    }
+    
+    .input_grid input:nth-child(1){
+        padding-bottom: px;
+        margin-top: 1.5rem;
+        grid-row: 1/2;
+        height: 40px;
+    }
+    
+    .input_grid input:nth-child(2){
+        grid-row: 2/3;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    /* FOOTER */
+    footer{
+        height: 40rem;
+        min-width: 48rem;
+    }
+    
+    .imagen_footer{
+        padding-top: 2rem;
+        height: 5rem;
+        max-width: 100%;
+    }
+    
+    .imagen_logo_footer{
+        width: 21rem;
+        height: 5rem;
+    }
+    
+    
+    .icon_footer{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    
+    .cuadro_mensaje_footer{
+        display: flex;
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    
+    .cuadro_mensaje_footer a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    
+    .footer_bloque{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 4rem;
+    }
+    
+    .footer_list{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        color: white;
+    }
+    
+    .footer_list a{
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    
+    .logo_io_icon{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .logo_io_icon > div{
+        color: white;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 2rem;
+        border: 1px solid white;
+    }
+}
+
 /* 844px - 390px  */
 @media (max-width: 426px) and (min-width:376px){
     .logo > img{
@@ -1007,7 +1279,7 @@ footer{
 }
 
 
-
+/* Dispositivos como Honor11A*/
 @media (max-width: 376px) and (min-width:321px){
 
 .logo > img{
@@ -1018,7 +1290,7 @@ footer{
 
     header{
         height: 13rem;
-        background-color: rgb(206, 148, 71);
+        min-width: 38rem;
     }
     
     header>nav{
@@ -1037,7 +1309,7 @@ footer{
     .nav-principal>a{
         text-decoration: none;
         color: var(--color-primary-1);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     /* Segundo Cuadro */
@@ -1046,6 +1318,7 @@ footer{
         grid-template-rows: 1fr 1fr;
         column-gap: 2rem;
         height: 100rem;
+        min-width: 38rem;
     }
     
     .imagen_comentario{
@@ -1128,6 +1401,7 @@ footer{
     /* tercer cuadro*/
     .contenido_secundario{
         background-size: 380rem 200rem;
+        min-width: 38rem;
     }
 
     .contenido_grid{
@@ -1136,6 +1410,7 @@ footer{
         padding-top: 3rem;
         padding-bottom: 5rem;
         height: 105rem;
+        min-width: 38rem;
     }
     
     .cuadro_lateral_izquierdo{
@@ -1192,6 +1467,10 @@ footer{
     }
     
     /* cuarto cuadro */
+    .contenido_terciario{
+        min-width: 38rem;
+    }
+
     .cuadros_grid{
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -1199,12 +1478,13 @@ footer{
         height: 40rem;
         align-items: center;
         padding: 4rem;
+        min-width: 38rem;
     }
     
     .contenedor_texto{
         display: grid;
         grid-template-rows: 70px 110px;
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
     }
     
     .contenedor_texto h1{
@@ -1254,6 +1534,7 @@ footer{
     /*  Footer  */
     footer{
         height: 65rem;
+        min-width: 38rem;
     }
     
     .imagen_footer{
@@ -1328,7 +1609,6 @@ footer{
 
     header{
         min-width: 38rem;
-        background-color: antiquewhite;
     }
 
     .logo > img{
