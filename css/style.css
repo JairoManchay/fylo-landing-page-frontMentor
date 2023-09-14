@@ -1018,6 +1018,7 @@ footer{
 
     header{
         height: 13rem;
+        background-color: rgb(206, 148, 71);
     }
     
     header>nav{
@@ -1327,6 +1328,7 @@ footer{
 
     header{
         min-width: 38rem;
+        background-color: antiquewhite;
     }
 
     .logo > img{
