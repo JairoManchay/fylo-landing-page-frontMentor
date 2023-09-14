@@ -993,7 +993,7 @@ footer{
     .nav-principal>a{
         text-decoration: none;
         color: var(--color-primary-1);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     /* Segundo Cuadro */
@@ -1309,7 +1309,7 @@ footer{
     .nav-principal>a{
         text-decoration: none;
         color: var(--color-primary-1);
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     /* Segundo Cuadro */
@@ -1624,7 +1624,7 @@ footer{
     } 
     
     .nav-principal>a{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
     /* Segundo Cuadro */
