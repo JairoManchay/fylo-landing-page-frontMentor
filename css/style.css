@@ -753,13 +753,17 @@ ion-icon{
 
     .cuadro_comentario{
         max-width: 80%;
-        max-height: 90%;
+        max-height: 95%;
     }
 
     .btn-started{
         margin: auto;
         margin-left: 1.5px;
         min-width: 25.5rem;
+    }
+
+    .input_grid{
+        row-gap: 2rem;
     }
 
     .cuadro_comentario p{
@@ -983,7 +987,7 @@ ion-icon{
         
     .cuadro_comentario{
         max-width: 100%;
-        max-height: 90%;
+        max-height: 100%;
     }
     
     .cuadro_comentario p{
@@ -1024,6 +1028,14 @@ ion-icon{
         text-align: center;
     }
 
+    .input_grid{
+        row-gap: 2rem;
+    }
+    .btn-started{
+        margin: auto;
+        margin-left: 1.5px;
+        min-width: 25.5rem;
+    }
 
 
     .grid_footer{
