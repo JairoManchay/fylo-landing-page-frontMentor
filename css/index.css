@@ -262,6 +262,17 @@ img{
     
 }
 
+.input{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.input::placeholder{
+    color: var(--neutral-primary-2);
+    padding: 2px;
+}
 
 
 .btn:hover{
