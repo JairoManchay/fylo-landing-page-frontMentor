@@ -232,7 +232,7 @@ h1{
 
 @media (min-width: 770px) and (max-width: 950px) { 
     h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -338,7 +338,7 @@ img{
 @media (min-width: 768px) and (max-width: 950px){ 
     
     .contenedor{
-        max-width: 80rem;
+        max-width: 75rem;
         margin: 0 auto;
     }
 }
@@ -496,7 +496,7 @@ img{
     width: 18rem;
 }
 
-@media (min-width: 770px) { 
+@media (min-width: 1024px){
     .logo{
         max-width: 30%;
         height: 30%;
@@ -505,6 +505,28 @@ img{
     .logo img{
         height: 8rem;
         width: 25rem;
+    }
+}
+@media (min-width: 950px) and (max-width: 1024px){
+    .logo{
+        max-width: 30%;
+        height: 30%;
+    }
+    
+    .logo img{
+        height: 8rem;
+        width: 25rem;
+    }
+}
+@media (min-width: 770px) and (max-width: 950px){ 
+    .logo{
+        max-width: 30%;
+        height: 30%;
+    }
+    
+    .logo img{
+        height: 5rem;
+        width: 20rem;
     }
 }
 
@@ -866,9 +888,19 @@ img{
     object-fit: cover;
 }
 
-@media (min-width: 770px) { 
+@media (min-width: 1024px){}
+
+@media (min-width: 950px) and (max-width:1024px){
     .sub_contenido_grid:nth-child(2) img{
-        height: 50rem;
+        height: 60rem;
+        width: 100%;
+        object-fit: fill;
+    }
+}
+
+@media (min-width: 770px) and (max-width:950px){ 
+    .sub_contenido_grid:nth-child(2) img{
+        height: 75rem;
         width: 100%;
         object-fit: fill;
     }
@@ -927,13 +959,39 @@ img{
 }
 
 
-@media (min-width: 770px) { 
+@media (min-width: 1024px){
     .informacion:nth-child(1) p{
         grid-column-start: 1;
         grid-column-end: 2;
         font-size: var(--p-font-size-2);
         display: flex;
         height: 8rem;
+        width: 80%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1024px){
+    .informacion:nth-child(1) p{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: var(--p-font-size-2);
+        display: flex;
+        height: 8rem;
+        width: 80%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 950px){ 
+    .informacion:nth-child(1) p{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: var(--p-font-size-2);
+        display: flex;
+        height: 9rem;
         width: 80%;
         flex-direction: column;
         gap: 2rem;
@@ -1279,8 +1337,8 @@ img{
 @media (min-width: 770px) and (max-width: 950px){ 
     .subscripcion:nth-child(1) p{
         font-size: var(--p-tercer-cuadro);
-        width: 70%;
-        height: 70px;
+        width: 80%;
+        height: 80px;
     }
     
 }
@@ -1327,19 +1385,34 @@ img{
     width: 40%;
 }
 
-@media (min-width: 770px) { 
-    .subscripcion:nth-child(2) a{
-        height: 40px;
-        width: 40%;
-        padding: 1.5rem;
-    }
-    
-}
+
 
 @media (min-width: 420px) and (max-width: 768px)  {
     .subscripcion:nth-child(2) a{
         height: 40px;
         width: 60%;
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .subscripcion:nth-child(2) a{
+        height: 40px;
+        width: 40%;
+        padding: 1.5rem;
+    }
+}
+@media (min-width: 950px) and (max-width: 1024px){
+    .subscripcion:nth-child(2) a{
+        height: 40px;
+        width: 40%;
+        padding: 1.5rem;
+    }
+}
+@media (min-width: 770px) and (max-width: 950px){
+    .subscripcion:nth-child(2) a{
+        height: 40px;
+        width: 50%;
         padding: 1.5rem;
     }
 }
