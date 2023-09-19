@@ -29,7 +29,7 @@ boton_confirm_2.addEventListener('click', function(){
 
 
 enlace.addEventListener('click', function(){
-    createAlert('Test Link', 'Validates the click event and by hovering only the mouse', 'info');
+    createAlert('Test Link', 'Validates the click event', 'info');
     
 })
 
