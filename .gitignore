@@ -4,8 +4,6 @@
 ###############################################
 *.sketch
 
-# Remove the style
-/css/style.css
 
 # Avoid accidental XD or Figma upload if you convert the design file
 #######################################################
